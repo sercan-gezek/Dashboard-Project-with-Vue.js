@@ -1,0 +1,12 @@
+h1{
+  background-color: $primary;
+}
+h3{
+  color:$renk1;
+  &:hover{
+    color:red;
+  }
+}
+p{
+  color:$paragraf;
+}

@@ -17,7 +17,21 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-7">Anasayfa</div>
+    <div class="col-lg-7">
+      <div class="container">
+        <div class="middle-content">
+        <div class="row">
+          <div class="col-lg-6">
+            <input type="text" class="form-control" placeholder="Search">
+
+          </div>
+          <div class="col-lg-6">
+
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
     <div class="col-lg-3">
       <div class="right-sidebar">
 

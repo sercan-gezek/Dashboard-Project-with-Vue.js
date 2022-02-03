@@ -10,7 +10,7 @@ body{
     background-color:#F6F9FF !important;
 }
 .container-fluid{
-    max-width:1600px !important;
+
 }
 h6{
     font-weight: 500;
@@ -50,6 +50,23 @@ h6{
 }
 .group-area h6{
     margin:74px 0 32px 0;
+}
+.middle-content{
+    margin:24px 0 0 0;
+}
+.middle-content .form-control{
+    max-width: 367px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 40px;
+    padding:0 0 0 32px;
+    color:#6E7278;
+}
+.middle-content .form-control::placeholder{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #6E7278;
 }
 
 

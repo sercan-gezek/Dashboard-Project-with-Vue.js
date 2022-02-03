@@ -19,10 +19,12 @@ h6{
     color: #1B1F43;
 }
 .left-sidebar{
-    height: 100%;
     background-color: #fff;
     border-radius:0 35px 0 0;
     padding:31px 0 0 27px
+}
+.left-content{
+    padding:0 0 0 27px
 }
 .left-content .logo{
     width:170px;
@@ -54,13 +56,14 @@ h6{
 .middle-content{
     margin:24px 0 0 0;
 }
-.middle-content .form-control{
+.middle-content input.form-control{
     max-width: 367px;
     height: 50px;
     background-color: #fff;
     border-radius: 40px;
     padding:0 0 0 32px;
     color:#6E7278;
+    border:0;
 }
 .middle-content .form-control::placeholder{
     font-weight: normal;
@@ -68,5 +71,87 @@ h6{
     line-height: 20px;
     color: #6E7278;
 }
+.middle-content-message{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.middle-content-message h5{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #282F79;
+    margin:0;
+}
+.middle-content-message-2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin:53px 0 0 0;
+}
+.middle-content-message-2 h5{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #282F79;
+    margin:0;
+}
+.circle-content{
+    margin:53px 0 0 0;
+    display: flex;
+}
+.circle-box{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background-color: #3734A9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 3px 0 0;
+}
+.circle-box-other{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background-color: #AFAEDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-box-big{
+    height:100% ;
+    background: linear-gradient(0deg, #3734A9, #3734A9), linear-gradient(180deg, rgba(54, 54, 54, 0) 73.91%, rgba(54, 54, 54, 0.46) 105.11%), #3734A9;
+    border: 4px solid #FFFFFF;
+    box-shadow: -5px 7px 34px #D7DBEA;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.middle-box-big .middle-head{
+    position: absolute;
+    bottom:13px;
+    left:20px;
+}
+.middle-box-big .middle-head p{
+    color: #fff;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    opacity: 0.8;
+    margin: 0 0 4px 0;
+}
+.middle-box-big .middle-head h6{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    margin:0;
+}
+
+
+
 
 

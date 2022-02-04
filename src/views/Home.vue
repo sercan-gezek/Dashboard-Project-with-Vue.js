@@ -79,7 +79,19 @@
     </div>
     <div class="col-lg-3">
       <div class="right-sidebar">
-
+        <div class="right-sidebar-content">
+          <img src="@/assets/img/Iconly/Bold/Upload.svg" alt="Icon" />
+          <img src="@/assets/img/Iconly/Bold/Alert.svg" alt="Icon" />
+          <div class="circle-box">
+            <img src="@/assets/img/Iconly/img-icon.svg" alt="Icon" />
+          </div>
+        </div>
+        <div class="right-sidebar-head">
+          <h5>Popular Activities</h5>
+          <div class="right-sidebar-box">
+            <p>lasdasdl amsdak sldkaslda sdalsdklaskdl</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

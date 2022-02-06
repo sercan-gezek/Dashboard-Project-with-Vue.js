@@ -69,6 +69,7 @@ h6{
 }
 .right-sidebar-box{
     margin:30px 0 0 0;
+    padding:35px 30px 16px 24px;
     width: 270px;
     height: 189px;
     background: linear-gradient(85.29deg, #FFFFFF 20.2%, rgba(255, 255, 255, 0) 104.15%);
@@ -76,7 +77,32 @@ h6{
     box-sizing: border-box;
     filter: drop-shadow(-5px 7px 54px rgba(113, 154, 208, 0.1));
     border-radius: 20px;
-
+}
+.right-sidebar-box-top{
+    display:flex;
+}
+.right-sidebar-box-top-left{
+    width: 69px;
+    height: 67px;
+    background: #FFDF84;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-box-2{
+    width: 36px;
+    height: 38px;
+    background-color: #3734A9;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-sidebar-box-top-right h3{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2D2C2C;
 }
 .group-area h6{
     margin:74px 0 32px 0;

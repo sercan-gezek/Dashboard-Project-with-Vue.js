@@ -89,7 +89,17 @@
         <div class="right-sidebar-head">
           <h5>Popular Activities</h5>
           <div class="right-sidebar-box">
-            <p>lasdasdl amsdak sldkaslda sdalsdklaskdl</p>
+            <div class="right-sidebar-box-top">
+              <div class="right-sidebar-box-top-left">
+                <div class="circle-box-2">
+                  <img src="@/assets/img/Iconly/img-icon.svg" alt="Icon" />
+                </div>
+              </div>
+              <div class="right-sidebar-box-top-right">
+                <h3>Disaster Donation</h3>
+                <p>Emily Hofter</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -100,6 +100,80 @@
                 <p>Emily Hofter</p>
               </div>
             </div>
+            <div class="right-sidebar-box-middle">
+              <h5>Progress</h5>
+              <p>80%</p>
+            </div>
+            <div class="line-content">
+              <div class="line-white"></div>
+              <div class="line-yellow"></div>
+            </div>
+            <div class="right-sidebar-box-bottom">
+              <div class="right-sidebar-box-bottom-left">
+                <img src="@/assets/img/Iconly/Bold/Chat.svg" class="img-fluid" alt="Chat" /><span>123</span>
+              </div>
+              <div class="right-sidebar-box-bottom-right">
+                <img src="@/assets/img/Iconly/Bold/Clock.svg" class="img-fluid" alt="Clock" /><span>2 days left</span>
+              </div>
+            </div>
+          </div>
+          <div class="right-sidebar-box">
+            <div class="right-sidebar-box-top">
+              <div class="right-sidebar-box-top-left">
+                <div class="circle-box-2">
+                  <img src="@/assets/img/Iconly/img-icon.svg" alt="Icon" />
+                </div>
+              </div>
+              <div class="right-sidebar-box-top-right">
+                <h3>Disaster Donation</h3>
+                <p>Emily Hofter</p>
+              </div>
+            </div>
+            <div class="right-sidebar-box-middle">
+              <h5>Progress</h5>
+              <p>80%</p>
+            </div>
+            <div class="line-content">
+              <div class="line-white"></div>
+              <div class="line-yellow"></div>
+            </div>
+            <div class="right-sidebar-box-bottom">
+              <div class="right-sidebar-box-bottom-left">
+                <img src="@/assets/img/Iconly/Bold/Chat.svg" class="img-fluid" alt="Chat" /><span>123</span>
+              </div>
+              <div class="right-sidebar-box-bottom-right">
+                <img src="@/assets/img/Iconly/Bold/Clock.svg" class="img-fluid" alt="Clock" /><span>2 days left</span>
+              </div>
+            </div>
+          </div>
+          <div class="right-sidebar-box">
+            <div class="right-sidebar-box-top">
+              <div class="right-sidebar-box-top-left">
+                <div class="circle-box-2">
+                  <img src="@/assets/img/Iconly/img-icon.svg" alt="Icon" />
+                </div>
+              </div>
+              <div class="right-sidebar-box-top-right">
+                <h3>Disaster Donation</h3>
+                <p>Emily Hofter</p>
+              </div>
+            </div>
+            <div class="right-sidebar-box-middle">
+              <h5>Progress</h5>
+              <p>80%</p>
+            </div>
+            <div class="line-content">
+              <div class="line-white"></div>
+              <div class="line-yellow"></div>
+            </div>
+            <div class="right-sidebar-box-bottom">
+              <div class="right-sidebar-box-bottom-left">
+                <img src="@/assets/img/Iconly/Bold/Chat.svg" class="img-fluid" alt="Chat" /><span>123</span>
+              </div>
+              <div class="right-sidebar-box-bottom-right">
+                <img src="@/assets/img/Iconly/Bold/Clock.svg" class="img-fluid" alt="Clock" /><span>2 days left</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

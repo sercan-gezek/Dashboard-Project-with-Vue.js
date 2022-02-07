@@ -59,7 +59,7 @@ h6{
     margin:0 25px;
 }
 .right-sidebar-head{
-    margin:70px 0 0 0;
+    margin:30px 0 0 0;
 }
 .right-sidebar-head h5{
     font-weight: normal;
@@ -68,10 +68,10 @@ h6{
     color: #282F79;
 }
 .right-sidebar-box{
-    margin:30px 0 0 0;
+    margin:25px 0 0 0;
     padding:35px 30px 16px 24px;
     width: 270px;
-    height: 189px;
+    height: 200px;
     background: linear-gradient(85.29deg, #FFFFFF 20.2%, rgba(255, 255, 255, 0) 104.15%);
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
@@ -90,6 +90,33 @@ h6{
     justify-content: center;
     align-items: center;
 }
+.right-sidebar-box-bottom-left img{
+    margin:0 4px 0 0;
+}
+.right-sidebar-box-bottom-left span{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #B6B9BC;
+}
+.right-sidebar-box-bottom-right{
+    width: 96px;
+    height: 22px;
+    background: #3734A9;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-sidebar-box-bottom-right img{
+    margin:0 4px 0 0;
+}
+.right-sidebar-box-bottom-right span{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
 .circle-box-2{
     width: 36px;
     height: 38px;
@@ -98,11 +125,66 @@ h6{
     justify-content: center;
     align-items: center;
 }
+.right-sidebar-box-top-right{
+    margin:0 0 0 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .right-sidebar-box-top-right h3{
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
     color: #2D2C2C;
+    margin: 0;
+}
+.right-sidebar-box-top-right p{
+    font-weight: normal;
+    line-height: 20px;
+    margin: 0;
+    font-size: 14px;
+    color: #6E7278;
+    opacity: 0.5;
+}
+.right-sidebar-box-middle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 11px 0 0 0;
+}
+.right-sidebar-box-middle h5{
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 20px;
+    color: #6E7278;
+}
+.right-sidebar-box-middle p{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px;
+    color: #2D2C2C;
+}
+.line-content{
+    position: relative;
+}
+.line-content .line-white{
+    position: absolute;
+    width: 100%;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.line-content .line-yellow{
+    position: absolute;
+    width: 80%;
+    height: 7px;
+    background-color: #FFDF84;
+    border-radius: 50px;
+}
+.right-sidebar-box-bottom{
+    margin:15px 0 0 0;
+    display: flex;
+    justify-content: space-between;
 }
 .group-area h6{
     margin:74px 0 32px 0;

@@ -30,9 +30,39 @@
                   </div>
                 </div>
 
-                <div class="col-lg-6">
-                  <div class="row">
+                <div class="col-lg-12">
+                  <div class="row d-flex justify-content-end">
+                    <div class="col-lg-12">
+                      <div class="message-item mt-4">
+                        <p>loremasad loremasad loremasad loremasad loremasad loremasad loremasad loremasad loremasad
+                          loremasad loremasad loremasad loremasad loremasad </p>
+                      </div>
+                    </div>
 
+                    <div class="col-lg-8 mt-4">
+                    <div class="message-item-2">
+                      <p>loremasad loremasad loremasad loremasad loremasad loremasad loremasad loremasad loremasad
+                        loremasad loremasad loremasad loremasad loremasad </p>
+                    </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="message-item mt-4">
+                        <p>loremasad loremasad loremasad loremasad loremasad loremasad loremasad loremasad loremasad
+                          loremasad loremasad loremasad loremasad loremasad </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-8 mt-4">
+                      <div class="message-item-2">
+                        <p>loremasad loremasad loremasad loremasad loremasad loremasad loremasad loremasad loremasad
+                          loremasad loremasad loremasad loremasad loremasad </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="input-group-1 mt-4">
+                        <input type="text" name="" class="search-input" placeholder="Metin giriniz." id="">
+                        <button class="send">Gönder</button>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

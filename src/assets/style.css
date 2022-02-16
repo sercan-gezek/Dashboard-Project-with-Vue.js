@@ -286,7 +286,54 @@ h6{
     color: #fff;
     margin:0;
 }
-
+.message-item{
+    width: 100%;
+    background-color: #AFAEDD;
+    border-radius: 15px;
+    padding:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+}
+.message-item-2{
+    width: 100%;
+    background-color: #3734A9;
+    border-radius: 15px;
+    margin:0;
+    padding:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+}
+.input-group-1{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 0 0 0;
+}
+.input-group-1 .search-input{
+    width: 100%;
+    height: 67px;
+    border: 1px solid #3734A9;
+    box-sizing: border-box;
+    border-radius: 44px;
+    padding:22px;
+}
+.input-group-1  button.send{
+    position: absolute;
+    width: 130px;
+    height: 35px;
+    right: 20px;
+    background: #76A934;
+    border-radius: 22px;
+    border: 0;
+    color: #fff;
+    font-size: 12px;
+}
 
 
 

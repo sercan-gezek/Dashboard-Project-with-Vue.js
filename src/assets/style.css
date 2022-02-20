@@ -19,10 +19,12 @@ h6{
     color: #1B1F43;
 }
 .left-sidebar{
-    height: 100%;
     background-color: #fff;
     border-radius:0 35px 0 0;
     padding:31px 0 0 27px
+}
+.left-content{
+    padding:0 0 0 27px
 }
 .left-content .logo{
     width:170px;
@@ -47,6 +49,142 @@ h6{
     height: 100vh;
     background: #E8F2FF;
     border-radius:0 0 0 35px;
+    padding:16px 26px;
+}
+.right-sidebar-content{
+    display:flex;
+    justify-content: flex-end;
+}
+.right-sidebar-content img:nth-child(2){
+    margin:0 25px;
+}
+.right-sidebar-head{
+    margin:30px 0 0 0;
+}
+.right-sidebar-head h5{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 20px;
+    color: #282F79;
+}
+.right-sidebar-box{
+    margin:25px 0 0 0;
+    padding:35px 30px 16px 24px;
+    width: 270px;
+    height: 200px;
+    background: linear-gradient(85.29deg, #FFFFFF 20.2%, rgba(255, 255, 255, 0) 104.15%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    filter: drop-shadow(-5px 7px 54px rgba(113, 154, 208, 0.1));
+    border-radius: 20px;
+}
+.right-sidebar-box-top{
+    display:flex;
+}
+.right-sidebar-box-top-left{
+    width: 69px;
+    height: 67px;
+    background: #FFDF84;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-sidebar-box-bottom-left img{
+    margin:0 4px 0 0;
+}
+.right-sidebar-box-bottom-left span{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #B6B9BC;
+}
+.right-sidebar-box-bottom-right{
+    width: 96px;
+    height: 22px;
+    background: #3734A9;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-sidebar-box-bottom-right img{
+    margin:0 4px 0 0;
+}
+.right-sidebar-box-bottom-right span{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.circle-box-2{
+    width: 36px;
+    height: 38px;
+    background-color: #3734A9;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-sidebar-box-top-right{
+    margin:0 0 0 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right-sidebar-box-top-right h3{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2D2C2C;
+    margin: 0;
+}
+.right-sidebar-box-top-right p{
+    font-weight: normal;
+    line-height: 20px;
+    margin: 0;
+    font-size: 14px;
+    color: #6E7278;
+    opacity: 0.5;
+}
+.right-sidebar-box-middle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 11px 0 0 0;
+}
+.right-sidebar-box-middle h5{
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 20px;
+    color: #6E7278;
+}
+.right-sidebar-box-middle p{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px;
+    color: #2D2C2C;
+}
+.line-content{
+    position: relative;
+}
+.line-content .line-white{
+    position: absolute;
+    width: 100%;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.line-content .line-yellow{
+    position: absolute;
+    width: 80%;
+    height: 7px;
+    background-color: #FFDF84;
+    border-radius: 50px;
+}
+.right-sidebar-box-bottom{
+    margin:15px 0 0 0;
+    display: flex;
+    justify-content: space-between;
 }
 .group-area h6{
     margin:74px 0 32px 0;
@@ -54,13 +192,14 @@ h6{
 .middle-content{
     margin:24px 0 0 0;
 }
-.middle-content .form-control{
+.middle-content input.form-control{
     max-width: 367px;
     height: 50px;
     background-color: #fff;
     border-radius: 40px;
     padding:0 0 0 32px;
     color:#6E7278;
+    border:0;
 }
 .middle-content .form-control::placeholder{
     font-weight: normal;
@@ -68,5 +207,141 @@ h6{
     line-height: 20px;
     color: #6E7278;
 }
+.middle-content-message{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.middle-content-message h5{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #282F79;
+    margin:0;
+}
+.middle-content-message-2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin:53px 0 0 0;
+}
+.middle-content-message-2 h5{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #282F79;
+    margin:0;
+}
+.circle-content{
+    margin:53px 0 0 0;
+    display: flex;
+}
+.circle-box{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background-color: #3734A9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 3px 0 0;
+}
+.circle-box-other{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background-color: #AFAEDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-box-big{
+    height:100% ;
+    background: linear-gradient(0deg, #3734A9, #3734A9), linear-gradient(180deg, rgba(54, 54, 54, 0) 73.91%, rgba(54, 54, 54, 0.46) 105.11%), #3734A9;
+    border: 4px solid #FFFFFF;
+    box-shadow: -5px 7px 34px #D7DBEA;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.middle-box-big .middle-head{
+    position: absolute;
+    bottom:13px;
+    left:20px;
+}
+.middle-box-big .middle-head p{
+    color: #fff;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    opacity: 0.8;
+    margin: 0 0 4px 0;
+}
+.middle-box-big .middle-head h6{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    margin:0;
+}
+.message-item{
+    width: 100%;
+    background-color: #AFAEDD;
+    border-radius: 15px;
+    padding:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+}
+.message-item-2{
+    width: 100%;
+    background-color: #3734A9;
+    border-radius: 15px;
+    margin:0;
+    padding:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+}
+.input-group-1{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 0 0 0;
+}
+.input-group-1 .search-input{
+    width: 100%;
+    height: 67px;
+    border: 1px solid #3734A9;
+    box-sizing: border-box;
+    border-radius: 44px;
+    padding:22px;
+}
+.input-group-1  button.send{
+    position: absolute;
+    width: 130px;
+    height: 35px;
+    right: 20px;
+    background: #76A934;
+    border-radius: 22px;
+    border: 0;
+    color: #fff;
+    font-size: 12px;
+}
+.message-item p{
+    margin:0;
+    padding:0;
+}
+.message-item-2 p{
+    margin:0;
+    padding:0;
+}
+
 
 

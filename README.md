@@ -1,10 +1,12 @@
-Vue.js router kullanımı, SCSS kurulumu ve kullanımı.
+A dashboard project using vue.js router
+Project link.
+https://vuejs-dashboard-1.netlify.app/
 
-Aşağıdaki tüm yönlendirmeler yapılmalıdır.
-https://vue-loader.vuejs.org/guide/pre-processors.html#sass
-https://kodumunblogu.net/detail/vuejsde-scss-kullanimi
 
-# router
+Vue.js & Router
+https://cli.vuejs.org/
+https://router.vuejs.org/
+
 
 ## Project setup
 ```

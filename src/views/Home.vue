@@ -77,7 +77,7 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-3">
+    <div class="col-lg-3 p-0">
       <div class="right-sidebar">
         <div class="right-sidebar-content">
           <img src="@/assets/img/Iconly/Bold/Upload.svg" alt="Icon" />
